@@ -11,7 +11,8 @@ then
 	# Comprueba si se ingresaron los datos por parámetro
 	
 	echo "Error: no se recibió ningún parámetro"
-	echo "Escriba un dato para continuar:" read variable
+	echo "Escriba un dato para continuar:"
+	read variable
 
 	#En el caso de que ingresen un parámetro, el programa se dirige a HOME
 	#Esto con la finalidad de crear una carpeta con el nombre del parametro ingresado
